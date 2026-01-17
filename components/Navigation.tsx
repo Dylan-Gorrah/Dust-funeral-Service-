@@ -45,7 +45,7 @@ export default function Navigation() {
             transition={{ delay: 0.2 }}
             className="text-2xl font-display tracking-wider text-white"
           >
-            Dust
+           Comfort funiral services 
           </motion.div>
 
           {/* Desktop Navigation */}
