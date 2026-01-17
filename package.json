@@ -1,12 +1,13 @@
 {
-  "name": "demo-name-funeral-services",
+  "name": "dust-funeral-services",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "next": "^15.1.3",

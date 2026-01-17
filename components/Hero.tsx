@@ -48,7 +48,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-beige text-xl md:text-2xl mb-12 max-w-3xl mx-auto px-4 font-light tracking-wide"
         >
-          Compassionate funeral services in Bloemfontein
+          Compassionate funeral services in Colesberg
         </motion.p>
 
         <motion.div

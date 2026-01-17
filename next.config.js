@@ -1,13 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
+    unoptimized: true,
   },
+  // Configure for GitHub Pages deployment
+  output: 'export',
+  trailingSlash: true,
+  distDir: 'out',
 }
 
 module.exports = nextConfig
